@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a78cc3cac0f47e888f8af8a683f88693:0dc8915177d2e9fd792df469559d96ad:331b03cbc604a39135e803e18acb13f0$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="sprites/weapons/spr_pistol.png" width="105" height="22">
+    <sprite n="spr_pistol_blast_0.png" x="0" y="0" w="32" h="20" oX="14" oY="1" oW="60" oH="22" pX="0.5" pY="0.5"/>
+    <sprite n="spr_pistol_blast_1.png" x="35" y="0" w="35" h="22" oX="12" oY="0" oW="60" oH="22" pX="0.5" pY="0.5"/>
+    <sprite n="spr_pistol_blast_2.png" x="70" y="0" w="32" h="20" oX="14" oY="1" oW="60" oH="22" pX="0.5" pY="0.5"/>
+</TextureAtlas>
