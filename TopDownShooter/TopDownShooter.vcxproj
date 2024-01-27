@@ -176,10 +176,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../../Libraries/tinyxml2;../../Libraries/SFML-2.5.1/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../Libraries/tinyxml2;../Libraries/SFML-2.5.1/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>../../Libraries/tinyxml2/lib;../../Libraries/SFML-2.5.1/lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../Libraries/tinyxml2/lib;../Libraries/SFML-2.5.1/lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>tinyxml2-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -202,12 +202,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../../Libraries/tinyxml2;../../Libraries/SFML-2.5.0/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../Libraries/tinyxml2;../../Libraries/SFML-2.5.0/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>../../Libraries/tinyxml2/lib;../../Libraries/SFML-2.5.0/lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../Libraries/tinyxml2/lib;../../Libraries/SFML-2.5.0/lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>tinyxml2.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
